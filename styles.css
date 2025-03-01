@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+  min-height: 100vh;
+    
+  }
+
+
+.logo {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    margin-left: 16px;
+    
+  }
+  .container {
+    
+    display: flex;
+    
+    flex-direction: column;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .header {
+    background: #1f2937;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .intro {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+margin: 0;
+padding: 100px;
+padding-left: 50px;
+padding-right: 50px;
+    background: #1f2937;
+    color: white;
+    
+  
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    align-items: center;
+  }
+  a {
+   
+    text-decoration: none;
+    color: white;
+  }
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+
+.more-info {
+    
+text-align: center;
+    margin: 0;
+    padding: 100px;
+    padding-left: 50px;
+    padding-right: 50px; 
+
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+img {
+    
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+      
+}
+.info {
+    max-width: 200px;
+  }
+.basket {
+    display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.quote {
+background-color: #e5e7eb;
+
+margin: 0;
+padding: 100px;
+padding-left: 50px;
+padding-right: 50px;
+}
+.ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ads {
+  background-color: azure;
+  height: 100px;
+  width: 700px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 10px; 
+   
+}
+
+  footer {
+    background: #1f2937;
+    color: white;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  }
